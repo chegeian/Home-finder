@@ -28,10 +28,10 @@ $(document).ready(function(){
 
 
   $("#findHere").click(function(){
-      let status = $("[name='status']").val()
-      let rooms = $("[name='rooms']").val()
-      let type = $("[name='type']").val()
-      let location = $("[name='location']").val()
+      const status = $("[name='status']").val()
+      const rooms = $("[name='rooms']").val()
+      const type = $("[name='type']").val()
+      const location = $("[name='location']").val()
 
       if(status == 0){
           localStorage.removeItem("status");
