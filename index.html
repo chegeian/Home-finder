@@ -144,7 +144,7 @@
                     <h1 class="display-4 text-uppercase text-dark mb-0">
                         <strong>HOMES</strong>
                     </h1>
-                    <div class="title-underline bg-warning"></div>
+                    <div class="title-underline bg-primary"></div>
       
                 </div>
             </div>
@@ -214,78 +214,68 @@
       </div>
       </section>
     
-            <section id="choose" class="py-5 bg-white">
-                <div class="container">
-                    
+      <section id="order" class="py-5 bg-white">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>find your dream here</strong>
+                    </h1>
+                    <div class="title-underline bg-primary"></div>
+                </div>
+            </div>
+      
+            <div class="home-form-w3ls mt-5 pt-lg-4">
+                <form action="#" method="post">
                     <div class="row">
-                        <div class="col text-center">
-                            <h1 class="display-4 text-uppercase text-dark mb-0">
-                                <strong>choose here</strong>
-                            </h1>
-                            <div class="title-underline bg-danger"></div>
-                        </div>
-                    </div>
-              
-                    <div class="row">
-                      <div class="col-md-4 mx-auto py-2">
-                          <form id = "myForm">
-                              <div class="form-group">
-                                  <label for="sel1">Select type:</label>
-                                  <select class="form-control" id="type">
-              
-                                    <option>---click here to select your preference---</option>
-              
-                                      <option>URBAN</option>
-                                      <option>SEMI-URBAN</option>
-                                      <option>UP-COUNTRY</option>
-                                      <option>APARTMENT</option>
-                                      <option>GATED</option>
-                                      <option>MODERN</option>
-                                  </select>
-                              </div>
-                              
-                              <div class="form-group">
-                                <label for="sel1">Select size :</label>
-                                <select class="form-control" id="size">
-                                  <option>---click here to select size---</option>
-                                    <option value="1">Quarter acre</option>
-                                    <option value="2">Half acre</option>
-                                    <option value="3">one acre</option>
-                                </select>
-                            </div> 
-              
+                        <div class="col-lg-6">
                             <div class="form-group">
-                              <label for="sel1">Select type:</label>
-                              <select class="form-control" id="crust">
-              
-                                <option>click here to select purchase type</option>
-                                  <option>BUY</option>
-                                  <option>RENT</option>
-                                  <option>LEASE</option>
-                              </select>
-                          </div>
-              
-                          <div class="form-group">
-                            <label for="sel1">Select location:</label>
-                            <select class="form-control" id="top">
-                              <option>---click here to select location---</option>
-                                <option>Nairobi</option>
-                                <option>Nakuru</option>
-                                <option>Kisumu</option>
-                                <option>Mombasa</option>
-                                <option>Muranga</option>
-                            </select>
+                                <select name="status" required="" class="form-control">
+                                    <option value="">Any Status</option>
+                                    <option value="1">For Rent</option>
+                                    <option value="2">For Sale</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="type" required="" class="form-control">
+                                    <option value="">All Type</option>
+                                    <option value="1">Apartments</option>
+                                    <option value="2">Restaurant</option>
+                                    <option value="3">Shop</option>
+                                    <option value="4">Villa</option>
+                                </select>
+                            </div>
                         </div>
-                      </div>
-              
-                      <div class="form-group">
-                        <button type="submit" class="btn btn-danger btn-block">Submit</button>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <select name="rooms" required="" class="form-control">
+                                    <option value="">rooms</option>
+                                    <option value="1">3</option>
+                                    <option value="2">6</option>
+                                    <option value="3">9</option>
+                                    <option value="4">12</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="location" required="" class="form-control">
+                                    <option value="">Location</option>
+                                    <option value="1">United States</option>
+                                    <option value="2">Canada</option>
+                                    <option value="3">New York</option>
+                                    <option value="4">Chicago</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
+                    <button type="button" id="findHere" class="btn btn_apt">Find Here</button>
                 </form>
-              </div>
-              </div>
-              </div>
-              </section>
+            </div>
+            <!-- //form -->
+        </div>
+      </div>
+      </div>
+      </div>
               <!-- contact-->
     <section id="contact" class="py-5 ">
         <div class="container">
@@ -299,7 +289,7 @@
       
                 </div>
             </div>
-            <div class="r0w">
+            <div class="row">
               <div class="col-md-12 my-6">
                   <div class="card card-body ">
                     
