@@ -7,7 +7,7 @@
 
 ## Description
 https://github.com/chegeian/Home-finder.git
-This is a web application that helps you find your dream home by a gitclick 
+This is a web application that helps you find your dream home by a click 
 
 ## Project live site
   This is the live .[ Click for the demo]()
