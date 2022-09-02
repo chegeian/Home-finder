@@ -10,7 +10,7 @@ https://github.com/chegeian/Home-finder.git
 This is a web application that helps you find your dream home by a click 
 
 ## Project live site
-  This is the live .[ Click for the demo]()
+  This is the live .[ Click for the demo](https://chegeian.github.io/Home-finder/)
 
 ## Screenshot
   ![Image](/Images/screenshot-127.0.0.1_5501-2022.09.02-16_17_45.png)
