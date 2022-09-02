@@ -18,6 +18,14 @@ $(document).ready(function(){
   console.log("main.js");
 
 
+  $('form#log').submit(function (event) {
+    event.preventDefault();
+    var email= $('#typeEmailX-2').val();
+    var password= $('#typePasswordX-2').val();
+     alert("Email must be entered in a proper and valid format including unique characters e.g Mohamedlee27@gmail.com");
+});
+
+
   $("#findHere").click(function(){
       const status = $("[name='status']").val()
       const rooms = $("[name='rooms']").val()
