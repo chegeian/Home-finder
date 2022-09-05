@@ -13,23 +13,6 @@ function autowrite(){
 }
 setInterval(autowrite,100);
 
-const axios = require("axios");
-
-const options = {
-  method: 'GET',
-  url: 'https://mailcheck3.p.rapidapi.com/email/email@example.com',
-  headers: {
-    'X-RapidAPI-Key': 'b419e37f05mshd27b5c832e320e7p1103a0jsn415a25655385',
-    'X-RapidAPI-Host': 'mailcheck3.p.rapidapi.com'
-  }
-};
-
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
-
 
 $(document).ready(function(){
   console.log("main.js");
