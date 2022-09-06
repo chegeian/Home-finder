@@ -1,9 +1,7 @@
-{
-    "posts": [
-      { "id": 1, "title": "HOME FINDER", "author": "chege" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+[
+    {
+        "name":"Home",
+        "href":"index.html"
+    }
+
+]
