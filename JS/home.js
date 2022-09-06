@@ -14,6 +14,15 @@ function autowrite(){
 setInterval(autowrite,100);
 
 
+
+const login = document.getElementById("login")
+
+login.addEventListener("click", function() {
+     alert('We sent a confirmation code')
+    
+    console.log(logged )
+})
+
 $(document).ready(function(){
   console.log("main.js");
 
@@ -22,7 +31,7 @@ $(document).ready(function(){
     event.preventDefault();
     var email= $('#typeEmailX-2').val();
     var password= $('#typePasswordX-2').val();
-     alert("Email must be entered in a proper and valid format including unique characters e.g Mohamedlee27@gmail.com");
+     alert("Email must be entered in a proper and valid format including unique characters e.g chegeian@gmail.com");
 });
 
 
