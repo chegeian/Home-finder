@@ -3,7 +3,10 @@ body{
   text-align: center;
 }
 #header {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Images/r-architecture-A8W70m5jv_k-unsplash.jpg")center/cover no-repeat fixed;
+  background-image: url('../Images/r-architecture-MAnVoJlQUvg-unsplash.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat
 }
 .navbar{
   background-color:  #011936;
@@ -15,10 +18,6 @@ body{
   min-width: 100vh;
 }
 
-.about-picture{
-  background-image: url("/Images/r-architecture-2gDwlIim3Uw-unsplash.jpg");
-  background : center/cover no-repeat fixed;
-}
 .title-underline{
   width: 200px;
   height: 10px;
@@ -40,7 +39,16 @@ footer{
   margin: 0 auto;
 }
 #about{
-  background-image: url("/Images/r-architecture-A8W70m5jv_k-unsplash.jpg");
+  text-align: center;
+  background-image: url("../Images/becca-tapert-dO3qTKxwik0-unsplash.jpg");
+  color:black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Copse', serif;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #findHere{
@@ -48,7 +56,7 @@ footer{
 }
 
 #login{
-  background-color: #ff7845;
+  background-image: url("../Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg");
   border-radius: 10px;
   color: white;
   padding: 8px 18px;
@@ -61,10 +69,10 @@ footer{
 }
 
 #choose{
-  background-image: url("/Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg");
+  background-image: url("../Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg");
 }
 
 #contact{
-  background-image: url("/Images/douglas-sheppard-9rYfG8sWRVo-unsplash.jpg");
+  background-image: url("../Images/douglas-sheppard-9rYfG8sWRVo-unsplash.jpg");
 
 }
