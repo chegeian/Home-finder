@@ -1,71 +1,69 @@
 body{
-    font-family: 'Grenze', serif;
-    text-align: center;
-  }
-  #header {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../Images/r-architecture-KQgrVfR3r74-unsplash.jpg)center/cover no-repeat fixed;
-  }
-  .navbar{
-    background-color:  #011936;
-  }
-  .height{
-    min-height: 80vh;
-  }
-  .height-80{
-    min-width: 100vh;
-  }
-  
-  .about-picture{
-    background: url(/Images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg)center/cover no-repeat fixed;
-  }
-  .title-underline{
-    width: 200px;
-    height: 10px;
-    margin: 0 auto;
-  }
-  .round{
-  width: 60px;
-  height: 60px;
-  }
-  .form-group{
-    margin-top: 20px;
-    margin-bottom: 20px;
+  font-family: 'Grenze', serif;
+  text-align: center;
+}
+#header {
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Images/r-architecture-A8W70m5jv_k-unsplash.jpg)center/cover no-repeat fixed;
+}
+.navbar{
+  background-color:  #011936;
+}
+.height{
+  min-height: 80vh;
+}
+.height-80{
+  min-width: 100vh;
+}
 
-  }
-  footer{
-    padding-top: 40px;
-    text-align: center;
-    max-width: 70vw;
-    margin: 0 auto;
-  }
+.about-picture{
+  background: url(/Images/r-architecture-2gDwlIim3Uw-unsplash.jpg)center/cover no-repeat fixed;
+}
+.title-underline{
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+}
+.round{
+width: 60px;
+height: 60px;
+}
+.form-group{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+footer{
+  padding-top: 40px;
+  text-align: center;
+  max-width: 70vw;
+  margin: 0 auto;
+}
 #about{
-    background-image: url(/Images/r-architecture-A8W70m5jv_k-unsplash.jpg);
+  background-image: url(/Images/r-architecture-A8W70m5jv_k-unsplash.jpg);
 }
 
 #findHere{
-    background-color: #0D6E6F;
+  background-color: #0D6E6F;
 }
 
 #login{
-    background-color: #ff7845;
-    border-radius: 10px;
-    color: white;
-    padding: 8px 18px;
-    
+  background-color: #ff7845;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 18px;
+  
 }
 
 #login:hover{
-    background-color: rgb(235, 112, 64);
-    cursor: pointer;
+  background-color: rgb(235, 112, 64);
+  cursor: pointer;
 }
 
 #choose{
-    background-image: url(Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg);
+  background-image: url(Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg);
 }
 
 #contact{
-    background-image: url(Images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg);
+  background-image: url(Images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg);
 
 }
-
-
