@@ -3,7 +3,7 @@ body{
   text-align: center;
 }
 #header {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Images/r-architecture-A8W70m5jv_k-unsplash.jpg)center/cover no-repeat fixed;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Images/r-architecture-A8W70m5jv_k-unsplash.jpg")center/cover no-repeat fixed;
 }
 .navbar{
   background-color:  #011936;
@@ -16,7 +16,8 @@ body{
 }
 
 .about-picture{
-  background: url(/Images/r-architecture-2gDwlIim3Uw-unsplash.jpg)center/cover no-repeat fixed;
+  background-image: url("/Images/r-architecture-2gDwlIim3Uw-unsplash.jpg");
+  background : center/cover no-repeat fixed;
 }
 .title-underline{
   width: 200px;
@@ -39,7 +40,7 @@ footer{
   margin: 0 auto;
 }
 #about{
-  background-image: url(/Images/r-architecture-A8W70m5jv_k-unsplash.jpg);
+  background-image: url("/Images/r-architecture-A8W70m5jv_k-unsplash.jpg");
 }
 
 #findHere{
@@ -60,10 +61,10 @@ footer{
 }
 
 #choose{
-  background-image: url(Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg);
+  background-image: url("/Images/dillon-kydd-pvdx8c6Y5BY-unsplash.jpg");
 }
 
 #contact{
-  background-image: url(Images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg);
+  background-image: url("/Images/douglas-sheppard-9rYfG8sWRVo-unsplash.jpg");
 
 }
